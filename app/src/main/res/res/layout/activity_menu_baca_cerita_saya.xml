@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--TODO 6 Atur layout activity_main.xml-->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcartoon"
+    tools:context=".menu_baca_cerita_saya">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="FORM UBAH CERITA"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:background="#fff"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/edtidpostingcerita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:hint="ID "
+            android:background="@drawable/background_edittext"
+            android:gravity="top"
+            android:textSize="16sp"
+            android:textColor="#000"/>
+
+        <EditText
+            android:id="@+id/edtididposting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:hint="ID Posting "
+            android:background="@drawable/background_edittext"
+            android:gravity="top"
+            android:textSize="16sp"
+            android:textColor="#000"/>
+
+        <EditText
+            android:id="@+id/edttipeceritapostingcerita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:hint="Tipe Cerita"
+            android:background="@drawable/background_edittext"
+            android:gravity="top"
+            android:textSize="16sp"
+            android:textColor="#000"/>
+
+        <EditText
+            android:id="@+id/edtjudulpostingcerita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:hint="Masukkan Judulnya "
+            android:background="@drawable/background_edittext"
+            android:gravity="top"
+            android:textSize="16sp"
+            android:textColor="#000"/>
+
+        <EditText
+            android:id="@+id/edtstatuspostingcerita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:hint="Status "
+            android:background="@drawable/background_edittext"
+            android:gravity="top"
+            android:textSize="16sp"
+            android:textColor="#000"/>
+
+        <EditText
+            android:id="@+id/edtisicerita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="90dp"
+            android:padding="10dp"
+            android:hint="Masukkan teksnya "
+            android:background="@drawable/background_edittext"
+            android:gravity="top"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:inputType="textMultiLine"/>
+        <Button
+            android:id="@+id/btnupdatecerita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ubah Cerita"/>
+
+    </LinearLayout>
+</ScrollView>
